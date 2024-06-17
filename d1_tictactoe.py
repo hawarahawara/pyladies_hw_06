@@ -87,6 +87,7 @@ def d1_tictactoe():
     if evaluate(board)[1]:
         break
 
-d1_tictactoe()
+if __name__ == "__main__":
+    d1_tictd1_tictactoe()
 
 # I could have written a function that evaluates the current state of the board and then lets the pc chose where to put its mark next (e.g. an if function, if an x is already at a position try to use the one left or right of it next). This would have been a playing strategy for pc, which would have made the game harder for the human player
